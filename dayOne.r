@@ -1,4 +1,15 @@
+data <- read.csv(
+   file = "data.txt", header = FALSE,
+   sep = ",", row.names = NULL, stringsAsFactors = FALSE
+)
+
+d <- data$V1
+
+d
 
 
 
-data <- read.csv(file = "data.txt", header = FALSE,  sep = ",", row.names = NULL,  stringsAsFactors = FALSE)
+
+name <- function(parameters) {
+   selected
+}
