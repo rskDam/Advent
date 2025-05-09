@@ -12,7 +12,7 @@ from airflow.operators.empty import EmptyOperator
     start_date=pendulum.datetime(2021, 1, 1, tz="UTC"),
     catchup=False,
     tags=["example"],
-    dag_display_name="Sample DAG with Display Name",
+    dag_display_name="SaASGGAGAFDGy Name",
 )
 def example_display_name():
     sample_task_1 = EmptyOperator(
